@@ -4,10 +4,10 @@ operation = input("Izberi operacijo +,-,*,/ : ")
 
 if operation == "+":
     print(firstNum+secondNum)
-if operation == "-":
+elif operation == "-":
     print(firstNum-secondNum)
-if operation == "*":
+elif operation == "*":
     print(firstNum*secondNum)
-if operation == "/":
+elif operation == "/":
     print(firstNum/secondNum)
 
